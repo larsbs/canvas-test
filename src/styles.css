@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #444555;
+}
+
+#mapping, #viewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#viewer {
+  pointer-events: none;
+}
