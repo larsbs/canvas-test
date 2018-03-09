@@ -23,6 +23,7 @@ function drawImage(canvas, image) {
 function drawMapping(canvas, color) {
   const { r, g, b, a } = color;
   const ctx = canvas.getContext('2d');
+  console.log(`rgba(${r}, ${g}, ${b}, ${a})`);
   ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${a})`;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
